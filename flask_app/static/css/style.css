@@ -1,0 +1,57 @@
+.title{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    }
+    body{
+    background: url('https://www.genengnews.com/wp-content/uploads/2019/06/203938_web.jpg') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    .Parkinson h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 40px 0;
+    }
+    .Parkinson p{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 40px 0;
+        color: #fff;
+        }
+    .bar{
+    text-align: right;
+    background-color: rgb(27, 2, 61);
+    border-radius: 50px;
+    }
+    .bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    }
+    .bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px; }
+    .bar ul li a{
+    text-decoration: none;
+    color: #fff; }
+ 
+    .title{
+    color:rgb(49, 58, 227);
+    text-shadow:1px 1px  #fff;
+    }
+    .active :hover{
+    position:static;
+    background-color: #372214;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    .about h1{
+    font-size: 22px;
+    color: #fff;
+    }
+    .about h2{
+    color:#000000;}

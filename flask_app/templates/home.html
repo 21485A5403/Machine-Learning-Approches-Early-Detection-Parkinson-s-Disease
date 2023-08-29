@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title class="organic">Detecting Parkinson’s Disease</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="bar">
+<ul>
+<li class="active"><a href="#" onclick="fun1()"><i class="fa fa-home"></i>Home</a></li>
+<li class="active"><a href="{{url_for('information')}}" onclick="fun2()"><i class="fa fa-info-circle"></i>Info</a></li>
+<li class="active"><a href="{{url_for('upload')}}" onclick="fun3()"><i class="fa fa-refresh"></i>Predict</a></li>
+</ul></div>
+<form  method="post">
+<div class="Parkinson" id="home">
+<h1 class="title"><center><i>Detecting Parkinson’s Disease Using ML</i></center></h1>
+<p class="pd"><i>Parkinson's disease (PD) is a prevalent neurodegenerative disease affecting about 1% of the world population over the age of 55 (Nussbaum and Ellis, 2003). About five million people worldwide are estimated to have PD. PD Prevalence is expected to double by the year 2030. Parkinson's disease (PD) patient care is limited by inadequate, sporadic symptom monitoring, infrequent access to care, and sparse encounters with healthcare professionals leading to poor medical decision making and sub-optimal patient health-related outcomes. Recent advances in digital health approaches have enabled objective and remote monitoring of impaired motor function with the promise of profoundly changing the diagnostic, monitoring, and therapeutic landscape in PD.</i></p>
+</div></form>
+</body>
+<script>
+</script>
+</html>
+

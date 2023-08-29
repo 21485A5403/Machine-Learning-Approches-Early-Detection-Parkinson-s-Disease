@@ -1,0 +1,104 @@
+.title{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    }
+    body{
+    background: url('https://media.istockphoto.com/id/932162700/photo/doctor-touching-medical-icons.jpg?s=2048x2048&w=is&k=20&c=-JWzlDsYsB70A21u-4ZYdyMxfl6XqXQ9XMhXNd4_uNc=') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    .Parkinson h4{
+    font-size: 15px;
+    margin: 10px 0;
+    color: black;
+    text-decoration: #000000;
+    }
+
+    .bar{
+    text-align: right;
+    background-color: rgb(27, 2, 61);
+    border-radius: 50px;
+    }
+    .bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    }
+    .bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px; }
+    .bar ul li a{
+    text-decoration: none;
+    color: #fff; }
+ 
+    .title{
+    color:rgb(49, 58, 227);
+    text-shadow:1px 1px  #fff;
+    }
+    .active :hover{
+    position:static;
+    background-color: #372214;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    .about h1{
+    font-size: 22px;
+    color: #fff;
+    }
+    .about h2{
+    color:#000000;}
+    .file-upload-input::-webkit-file-upload-button {
+        visibility: hidden;
+        margin: 10px;
+
+      }
+      .file-upload-input::before {
+        content: 'Select some files';
+        display: inline-block;
+        background: linear-gradient(top, #06166d, #0f0675);
+        border: 1px solid #15107a;
+        border-radius: 3px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        cursor: pointer;
+        text-shadow: 1px 1px #0a0a0a;
+        font-weight: 700;
+        font-size: 10pt;
+      }
+      .file-upload-input:hover::before {
+        border-color: black;
+      }
+      .file-upload-input:active::before {
+        background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+      }
+      .Parkinson{
+        top: 58%;Left: 53%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: #120e0e;
+        }
+        .Parkinson1{
+          top: 75%;Left: 53%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          color: #0a0561;
+          }
+    .submit{
+        font-size: medium;
+        width: 100%;
+        padding: 12px 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #7940f6;
+        color: rgb(238, 231, 231);
+        border-radius: 25px;
+    }
+
+
+    

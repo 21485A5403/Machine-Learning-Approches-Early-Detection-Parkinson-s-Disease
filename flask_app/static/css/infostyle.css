@@ -1,0 +1,63 @@
+.title{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    }
+    body{
+    background-color: #080527;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    .Parkinson h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 40px 0;
+    }
+
+    .bar{
+    text-align: right;
+    background-color: rgb(27, 2, 61);
+    border-radius: 50px;
+    }
+    .bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    }
+    .bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px; }
+    .bar ul li a{
+    text-decoration: none;
+    color: #fff; }
+ 
+    .title{
+    color:rgb(49, 58, 227);
+    text-shadow:1px 1px  #fff;
+    }
+    .active :hover{
+    position:static;
+    background-color: #372214;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    .about h1{
+    font-size: 22px;
+    color: #fff;
+    }
+    .about h2{
+    color:#000000;}
+    .img1{
+        float: left;
+        width: 40%;
+        padding: 40px;
+    
+    }
+    .Parkinson::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
