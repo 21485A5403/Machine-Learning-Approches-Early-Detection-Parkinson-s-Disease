@@ -1,4 +1,4 @@
-# SI-GuidedProject-528598-1692159891
+Machine Learning Approches Early Detection parkinson's Disease
 Detecting Parkinson’s Disease using Machine Learning
 More than 10 million people are living with Parkinson’s Disease worldwide, according to the Parkinson’s Foundation. While Parkinson’s cannot be cured, early detection along with proper medication can significantly improve symptoms and quality of life 
 
